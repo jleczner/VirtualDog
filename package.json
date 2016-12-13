@@ -8,6 +8,7 @@
     "bower": "^1.7.9",
     "http-server": "^0.6.1",
     "jasmine": "^2.5.2",
+    "jasmine-core": "^2.5.2",
     "node-promise": "^0.5.12",
     "typescript": "1.8.9",
     "typings": "1.0.4"

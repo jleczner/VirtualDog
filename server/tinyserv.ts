@@ -16,7 +16,7 @@ namespace toeknee.cors {
 
     public startServer() {
       this.server.listen(8200);
-      console.log('Server running at ' + this.server.localAddress + ':' + this.server.localPort);
+      console.log('Server running at ' + this.server.address().address + ':' + this.server.address().port);
     }
 
     private initiate() {
